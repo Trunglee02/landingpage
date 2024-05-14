@@ -1,0 +1,1206 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- <section> begin ============================-->
+<section class="p-0 page d-none" id="about">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pb-0 px-lg-0">
+                <section class="py-3">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-11 col-xl-9">
+                                <div class="text-center mb-5 mb-lg-6">
+                                    <h2><span class="fw-medium fs-xl-3 fs-xxl-4" style="color: #6a38f8; font-weight: bold !important; font-size: 80px !important;">Lợi ích</span></h2>
+                                </div>
+                                <div class="text-align" style="margin-bottom: 50px; font-size: 18px; text-align:justify;">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                    <p>
+                                        "Phần mềm quản lý đề thi và chấm bài thi là công cụ hiệu quả giúp các tổ chức giáo dục tối ưu hóa quá trình tổ chức thi cử và đánh giá. Bằng cách tự động hóa các công việc như tạo, lưu trữ đề và chấm thi, giúp tiết kiệm thời gian và công sức của giáo viên và nhà quản lý.
+                                        Ngoài ra, tính năng chấm bài tự động giúp cải thiện độ chính xác và tăng tốc quá trình đánh giá, từ đó tạo điều kiện cho việc phản hồi nhanh chóng, cung cấp thông tin chi tiết về kết quả.
+                                        "
+                                    </p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                                <div class="swiper-container theme-slider gallerySwiper" data-swiper='{"autoplay":{"delay":3000},"loop":true,"slideToClickedSlide":true,"effect":"fade","pagination":{"type":"bullets","clickable":true}}'>
+                                    <div class="swiper-wrapper h-100">
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" src="~/assets/img/gallery/img1.png" alt="" />
+                                                <div class="card-body h-100 px-2">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center">Linh động đáp ứng tất cả các mẫu đề thi từ Bộ Giáo Dục</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm quản lý đề thi linh động đáp ứng tất cả các dạng đề của Bộ Giáo Dục giúp giáo viên và nhà quản lý dễ dàng tạo ra và sử dụng đề thi theo các chuẩn mực của Bộ. Tính linh hoạt này không chỉ giúp tiết kiệm thời gian mà còn giúp đảm bảo rằng các bài kiểm tra phản ánh chính xác nội dung giáo dục. Đồng thời, nó cũng tạo điều kiện cho việc cá nhân hóa và tùy chỉnh theo nhu cầu cụ thể của từng lớp học và môn học, từ đó tăng cường hiệu quả giảng dạy và học tập.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" src="~/assets/img/gallery/img2.png" alt="" />
+                                                <div class="card-body h-100 px-2">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center">Cơ chế sao lưu và phục hồi dữ liệu đảm bảo tính an toàn <br /> và bảo mật</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm có tính năng sao lưu và phục hồi dữ liệu giúp bảo vệ thông tin quan trọng của bạn một cách an toàn và bảo mật. Với cơ chế này, dữ liệu được tự động sao lưu định kỳ để đảm bảo không bị mất mát trong trường hợp xảy ra sự cố. Khi cần thiết, tính năng phục hồi cho phép bạn khôi phục dữ liệu một cách dễ dàng và nhanh chóng, giúp duy trì sự liên tục trong hoạt động mà không lo lắng về việc mất dữ liệu quan trọng.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" src="~/assets/img/gallery/img3.png" alt="" />
+                                                <div class="card-body h-100 px-2">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center">Xây dựng ngân hàng câu hỏi tập trung, đa dạng</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"> </div>
+                                </div>
+                                <div class="row pt-5">
+                                    <div class="col-sm-6 my-sm-6 border-lg-end pe-sm-5">
+                                        <img class="img-fluid" src="~/assets/img/gallery/li.jpg" alt="" />
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify;">Linh động đáp ứng tất cả các mẫu đề thi từ Bộ Giáo Dục</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">
+                                                Phần mềm quản lý đề thi linh động đáp ứng tất cả các dạng đề của Bộ Giáo Dục giúp giáo viên và nhà quản lý dễ dàng tạo ra và sử dụng đề thi theo các chuẩn mực của Bộ. Tính linh hoạt này không chỉ giúp tiết kiệm thời gian mà còn giúp đảm bảo rằng các bài kiểm tra phản ánh chính xác nội dung giáo dục. Đồng thời, nó cũng tạo điều kiện cho việc cá nhân hóa và tùy chỉnh theo nhu cầu cụ thể của từng lớp học và môn học, từ đó tăng cường hiệu quả giảng dạy và học tập.
+                                            </p><img class="img-fluid" src="~/assets/img/gallery/li2.jpg" alt="" />
+                                        </div>
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify;">Cơ chế sao lưu và phục hồi dữ liệu đảm bảo tính an toàn và bảo mật</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">
+                                                Phần mềm có tính năng sao lưu và phục hồi dữ liệu giúp bảo vệ thông tin quan trọng của bạn một cách an toàn và bảo mật. Với cơ chế này, dữ liệu được tự động sao lưu định kỳ để đảm bảo không bị mất mát trong trường hợp xảy ra sự cố. Khi cần thiết, tính năng phục hồi cho phép bạn khôi phục dữ liệu một cách dễ dàng và nhanh chóng, giúp duy trì sự liên tục trong hoạt động mà không lo lắng về việc mất dữ liệu quan trọng.
+                                            </p><img class="img-fluid" src="~/assets/img/gallery/li6.jpg" alt="" />
+                                        </div>
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify;">Xây dựng ngân hàng câu hỏi tập trung, đa dạng</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 my-sm-6 border-lg-start ps-sm-5">
+                                        <img class="img-fluid" src="~/assets/img/gallery/loiichh4.jpeg" alt="" />
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify; margin-top:10px">Đáp ứng đầy đủ, chính xác các bộ tiêu chí khắt khe từ Bộ Giáo Dục, Sở Giáo Dục, Phòng Giáo Dục</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">Phần mềm giúp tổ chức hoặc cá nhân đạt được tiêu chí chất lượng cao mà các cơ quan giáo dục đề ra về đề thi và chấm thi. Tính năng này đảm bảo rằng các đề thi được thiết kế và chấm điểm theo các tiêu chuẩn nghiêm ngặt của Bộ GD&ĐT, Sở GD&ĐT, Phòng GD&ĐT, từ đó đảm bảo tính công bằng và chính xác trong quá trình đánh giá học sinh. Việc tuân thủ những tiêu chí này cũng giúp tăng cường uy tín và sự tin cậy của các tổ chức giáo dục, đồng thời nâng cao chất lượng giáo dục trên toàn quốc.</p>
+                                            <img class="img-fluid" src="~/assets/img/gallery/li4.png" alt="" />
+                                        </div>
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify;">Linh hoạt trong việc cho phép cán bộ giáo viên đóng góp, xây dựng ngân hàng mọi lúc mọi nơi</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">Các đơn vị nhà trường có thể đóng góp câu hỏi lên đơn vị chủ quản đồng thời có thể lấy dữ liệu câu hỏi, đề thi chuẩn trong vùng cho phép về phục vụ công tác chuyên môn. Có thể sử dụng phần mềm như một phần mềm quản lý và ra đề thi độc lập tại trường. Đồng thời, tính linh hoạt này cũng tạo điều kiện thuận lợi cho việc cập nhật và sử dụng ngân hàng đề theo nhu cầu cụ thể của từng đơn vị trường.</p>
+                                            <img class="img-fluid" src="~/assets/img/gallery/li5.jpg" alt="" />
+                                        </div>
+                                        <div class="flex-1 text-center text-sm-start">
+                                            <h4 class="fw-medium fs-md-1 fs-sm-1" style="text-align: justify;">Tiết kiệm thời gian, nhân lực trong quá trình làm đề và chấm thi</h4>
+                                            <p class="mb-5" style="margin-top: 10px; font-size: 18px; text-align: justify;">Là một bước đột phá trong công nghệ hiện đại, phần mềm giúp giáo viên và nhà quản lý giáo dục thực hiện công việc một cách mạch lạc và hiệu quả hơn, giải phóng thời gian cho việc tập trung vào các nhiệm vụ sáng tạo và phát triển. Nhờ vào tính năng tự động hóa và sự linh hoạt, phần mềm không chỉ giảm bớt gánh nặng công việc mà còn mở ra cánh cửa cho sự sáng tạo và đổi mới. Điều này không chỉ giúp tăng cường hiệu suất làm việc mà còn thúc đẩy sự phát triển toàn diện trong lĩnh vực giáo dục.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end of .container-->
+                </section>
+               
+                <div class="row justify-content-center pt-3d">
+                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8" style=" width: 70%;">
+                        <div class="card bg-backdrop" style=" background: #2a2525;">
+                            <div class="container" style="padding-right:0;">
+                                <div class="row">
+                                    <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+                                        
+                                        <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                    </div>
+
+                                    <div class="col-md-9">
+                                        <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                            <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                    <div class="flex-1 ms-3">
+                                                        <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                    <div class="flex-1 ms-3">
+                                                        <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                    <div class="flex-1 ms-3">
+                                                        <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                    <div class="flex-1 ms-3">
+                                                        <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                      <style>
+                          .bg-backdrop::before {
+                              background: none;
+                          }
+                          .bg-backdrop {
+                              background: rgb(39 37 37 / 40%);
+                          }
+
+                      </style>
+                    </div>
+                    <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                </div>
+                <div class="row justify-content-center my-3">
+                    <div class="col-12 col-lg-10">
+                        <div class="card bg-soft-blue">
+                            <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                <div class="row">
+                                    <div class="col-lg-6 text-center text-lg-start">
+                                        <p class="fs--1 my-2 fw-bold text-gradient-blue-soft">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/about.png);"></div>
+                    <!--/.bg-holder-->
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4" style="font-size: calc(1.4407rem + 2.2884vw) !important;">Lợi ích</h1><img class="d-none d-lg-block line-icons mt-5" src="/assets/img/lineicons/diamond.png" alt="icon" style="width: 120px; height: 100px;" />
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#gallery"> 
+                            <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                            <span class="text-capitalize" style="text-align: justify;">Thư viện <br /> ảnh</span></a>
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#services">
+                            <span class="text-capitalize" style="text-align: justify;">Chức <br /> năng</span>
+                            <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="p-0 page d-none" id="services">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-lg-0 pb-0 px-lg-0">
+                <div class="row min-vh-25 flex-center">
+                    <div class="col-lg-11">
+                        <div class="card card-span">
+                            <div class="bg-holder bg-size " style="background-image:url(/assets/img/services/services-card-bg.png);background-position:top center;background-size:cover;border-end-end-radius:5.5rem;border-end-start-radius:5.5rem;"></div>
+                            <!--/.bg-holder-->
+                            <div class="card-body position-relative">
+                                <div class="text-center my-3">
+                                    <div class="text-center ">
+                                        <h2><span class="fw-medium fs-xl-3 fs-xxl-4" style="color: #f67b2e; font-weight: bold !important; font-size: 80px !important;">Chức năng</span></h2>
+                                    </div>
+                                    <div class="mb-lg-6" style="margin-bottom: 50px; font-size: 13px; text-align:justify;">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                        <p>
+                                            Chào mừng bạn đến với trang web của chúng tôi! Chúng tôi tự hào giới thiệu phần mềm quản lý đề thi đa chức năng, giúp bạn tổ chức và quản lý đề thi một cách hiệu quả.
+                                            Với giao diện đơn giản và tiện lợi, phần mềm cho phép bạn tạo, chỉnh sửa và lưu trữ các đề thi một cách dễ dàng.
+                                            Khám phá ngay để trải nghiệm các tính năng ưu việt của chúng tôi trong việc quản lý đề thi trực tuyến!
+                                        </p>
+                                        <i class="fa-solid fa-quote-right"></i>
+                                    </div>
+                                    <div class="row flex-center">
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-0 pe-4" src="~/assets/img/services/cn1.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Số lượng câu hỏi không giới hạn</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Khởi tạo số lượng lớn câu hỏi với đa dạng các câu hỏi được phân loại theo các môn học, các chuyên đề, các dạng câu hỏi khác nhau và ứng với các mức độ kiến thức khác nhau.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-1 ps-4" src="~/assets/img/services/cn2.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Thiết lập đề thi theo cấu hình ma trận đề</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Mỗi lượt tạo đề thi có thể tạo ra những mã đề thi khác nhau theo cấu hình mong muốn của người ra đề. Thậm chí các câu hỏi cũng có thể khác nhau theo cấu hình ma trận đã được thiết lập từ trước, có thể kiểm soát mức độ trùng lặp giữa các đề gốc.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-0 pe-4" src="~/assets/img/services/cn3.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Cập nhật dữ liệu câu hỏi từ các ngân hàng câu hỏi khác</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Cập nhật dữ liệu câu hỏi từ các ngân hàng câu hỏi khác, cho phép chia sẻ dữ liệu câu hỏi giữa các giáo viên với nhau hoặc giữa các máy tính khác nhau một cách dễ dàng.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-1 pe-4" src="~/assets/img/services/cn4.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Phân quyền chức năng</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Quản lý phân quyền và thư viện đề thi, cho phép quản trị phân quyền cho các thành viên tham gia, phân quyền sử dụng câu hỏi đảm bảo tính bảo mật cho đề thi.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-0 pe-4" src="~/assets/img/services/cn5.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Lưu trữ kho ngân hàng câu hỏi, đề thi</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Có thể chia sẻ ngân hàng câu hỏi để nhiều người dùng khai thác (cùng biên soạn, tham khảo hoặc tạo đề thi) hoặc độc lập tại các đơn vị trường hoặc quản lý tập trung tại Sở giáo dục.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-1 pe-4" src="~/assets/img/services/cn6.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Tiếp nhận và kiểm soát quá trình</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Tiếp nhận và kiểm soát quá trình đóng góp câu hỏi và tổ chức duyệt câu hỏi từ các trường gửi lên.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-0 pe-4" src="~/assets/img/services/cn7.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Tạo đề từ Microsoft Word</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">Hỗ trợ import đề từ file word theo file định dạng sẵn. Đặc biệt, phần mềm thi trộn đề thi có khả năng import được các định dạng có sẵn ở file Word như in đậm, gạch chân, căn lề... vào đề thi.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-1 pe-4" src="~/assets/img/services/cn8.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Trộn và xuất đề ra file Word</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">
+                                                        Tạo ra các bộ đề thi tuân theo đúng mẫu của hình thức đánh giá dạng trắc nghiệm kết hợp tự luận do Bộ Giáo dục và Đào tạo đã đề ra.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-0 pe-4" src="~/assets/img/services/cn9.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Tự động chia điểm cho mỗi câu hỏi</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">
+                                                        Chương trình tự động chia điểm cho mỗi câu hỏi theo thang điểm ban đầu giúp người ra đề không tốn thời gian để cấu hình điểm cho từng câu hỏi riêng. Tất nhiên, người ra đề cũng có thể cấu hình điểm riêng cho những câu hỏi đặc biệt.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-11 col-xxl-9">
+                                            <div class="d-sm-flex flex-center">
+                                                <img class="order-1 pe-4" src="~/assets/img/services/cn10.png" alt="services" style="width:70%" />
+                                                <div class="flex-1 text-justify text-sm-start">
+                                                    <h4 class="fw-medium fs-md-1 fs-sm-1" style="color: #f67b2e; font-weight:bold">Đa dạng các loại câu hỏi</h4>
+                                                    <p class="mb-0 text-1200" style="font-size: 18px;">
+                                                        Đa dạng loại câu hỏi từ câu hỏi chỉ bao gồm dạng text hay câu hỏi cả text và hình ảnh, hình ảnh, video, công thức Toán…
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-content-center pt-3d">
+                            <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8" style=" width: 70%;">
+                                <div class="card bg-backdrop" style=" background: #2a2525;">
+                                    <div class="container" style="padding-right:0;">
+                                        <div class="row">
+                                            <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+
+                                                <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                                    <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center">
+                                                            <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .bg-backdrop::before {
+                                        background: none;
+                                    }                                    
+                                    .bg-backdrop {
+                                        background: rgb(39 37 37 / 40%);
+                                    }
+                                </style>
+                            </div>
+                            <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                        </div>
+                        <div class="row justify-content-center my-3">
+                            <div class="col-12 col-lg-10">
+                                <div class="card bg-soft-danger">
+                                    <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                        <div class="row">
+                                            <div class="col-lg-6 text-center text-lg-start">
+                                                <p class="fs--1 my-2 fw-bold text-gradient-danger-soft">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/services.png);"></div>
+                    <!--/.bg-holder-->
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4" style="font-size: calc(1.4407rem + 2.2884vw) !important;">Chức năng</h1>
+
+                        <img class="d-none d-lg-block line-icons mt-5" src="/assets/img/lineicons/thunder-bolt.png" alt="icon" style="width: 110px; height: 130px;" />
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#about"> 
+                            <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                            <span class="text-capitalize" style="text-align: justify;">Lợi <br/> ích</span></a>
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#contact">
+                            <span class="text-capitalize" style="text-align: justify;">Phạm vi <br />triển khai</span>
+                            <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="p-0 page d-none" id="portfolio">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-8 pt-xl-7 pt-xxl-8 pb-0">
+                <div class="row flex-center">
+                    <div class="row justify-content-center pb-5">
+                        <div class="col-sm-11 col-lg-9">
+                            <div class="text-center mb-5 mb-lg-6">
+                                <h1><span class="fs-xl-3 fs-xxl-4" style="color: #3c5a99; font-size: 68px !important; font-weight:bold">Điểm <span style=" color:#fff; background: #6a38f8; padding:20px; font-style:initial"> nổi bật</span></span></h1>
+                            </div>
+                            <div class="text-align" style="margin-bottom: 50px;">
+                                <p class="text-justify">Tiền thân của Tập đoàn Hương Việt là Công ty TNHH Phát triển Hương Việt được thành lập năm 2008. Trong suốt hơn 14 năm hình thành và phát triển, Hương Việt tập trung đầu tư vào 5 lĩnh vực kinh doanh cốt lõi, bao gồm:</p>
+
+                                <img style="width:100%" src="~/assets/img/diemnoibat/img2.png" />
+
+                                <div class="d-flex align-items-center mb-2 mt-lg-6 mb-lg-6 ">
+                                    <div class="icon icon-warning shadow-1"><i class="fas fa-data fs-1"></i></div>
+                                    <div class="flex-1 ms-3">
+                                        <p class="fw-bold mb-0 text-gradient-orange-1"><a style="font-size: 30px;" href="#">Chuyển đổi số. Cung cấp trọn gói giải pháp đào tạo cho doanh nghiệp</a></p>
+                                    </div>
+                                </div>
+                                <p class="text-justify">
+                                    Sau 14 năm hình thành và phát triển, bằng nội lực và tinh thần phục vụ cộng đồng, các sản phẩm của Hương Việt Group đều do 100% các kỹ sư tin học Việt Nam nghiên cứu và phát triển.
+                                    Các sản phẩm và dịch vụ của Hương Việt đều trên tinh thần Make in Việt Nam, vì một Việt Nam Hùng Cường.
+                                </p>
+                                <img style="width:100%" src="~/assets/img/diemnoibat/img1.jpg" />
+                                <div class="d-flex align-items-center mb-2 mt-lg-6 mb-lg-6 ">
+                                    <div class="icon icon-warning shadow-2"><i class="fas fa-data fs-1"></i></div>
+                                    <div class="flex-1 ms-3">
+                                        <p class="fw-bold mb-0 text-gradient-orange-2"> <a style="font-size: 30px;" href="hn.cskh@huongvietgroup.com ">Xuất khẩu phần mềm ra thị trường quốc tế</a></p>
+                                    </div>
+                                </div>
+
+                                <p class="text-justify">
+                                    Việc xuất khẩu phần mềm quản lý đề thi ra thị trường quốc tế mang lại nhiều điểm nổi bật: <br /> <br />
+
+                                    Tiêu chuẩn quốc tế: Phần mềm được phát triển với các tiêu chuẩn và quy chuẩn quốc tế, đảm bảo tính chuyên nghiệp và sự tin cậy trên toàn cầu. <br />
+                                    Đa ngôn ngữ và đa văn hóa: Hỗ trợ nhiều ngôn ngữ và thích nghi với các yêu cầu đa dạng của các thị trường quốc tế. <br />
+                                    Tính linh hoạt và tùy biến cao: Có khả năng tùy chỉnh linh hoạt để phù hợp với các nền văn hóa và quy định địa phương của từng quốc gia. <br />
+                                    Hỗ trợ kỹ thuật toàn diện: Đội ngũ hỗ trợ kỹ thuật chuyên nghiệp sẵn sàng hỗ trợ và giải quyết các vấn đề nhanh chóng. <br />
+                                    Kết nối toàn cầu: Giúp các tổ chức và trường học trên khắp thế giới tổ chức và quản lý các kỳ thi một cách hiệu quả và tiện lợi. <br /> <br />
+                                    Việc xuất khẩu phần mềm quản lý đề thi ra thị trường quốc tế mang lại nhiều lợi ích và tiềm năng phát triển toàn cầu cho sản phẩm.
+                                </p>
+                                <img style="width:100%" src="~/assets/img/diemnoibat/img3.jpg" />
+                                <div class="d-flex align-items-center mb-2 mb-lg-6  mt-lg-6">
+                                    <div class="icon icon-warning shadow-2"><i class="fas fa-data fs-1"></i></div>
+                                    <div class="flex-1 ms-3">
+                                        <p class="fw-bold mb-0 text-gradient-orange-2"> <a style="font-size: 30px;" href="hn.cskh@huongvietgroup.com ">Sản xuất phần mềm đóng gói, phần mềm theo đơn đặt hàng</a></p>
+                                    </div>
+                                </div>
+
+                                <p class="text-justify">
+                                    Điểm nổi bật của việc sản xuất phần mềm đóng gói và phát triển phần mềm theo đơn đặt hàng là khả năng đáp ứng nhu cầu và yêu cầu cụ thể của từng khách hàng: <br /> <br />
+
+                                    Tùy chỉnh cao: Cung cấp giải pháp phần mềm được tùy chỉnh theo yêu cầu riêng của từng khách hàng hoặc tổ chức, đảm bảo tính linh hoạt và sự phù hợp với nhu cầu cụ thể. <br />
+                                    Độ tin cậy và chất lượng: Sản phẩm được xây dựng dựa trên các yêu cầu chi tiết của khách hàng, đảm bảo tính tin cậy và chất lượng cao. <br />
+                                    Hỗ trợ kỹ thuật chuyên nghiệp: Đội ngũ kỹ sư và chuyên gia hỗ trợ sẽ làm việc chặt chẽ với khách hàng để đáp ứng và vượt qua các yêu cầu kỹ thuật đặc biệt. <br />
+                                    Tối ưu hóa hiệu quả: Sản xuất phần mềm theo đơn đặt hàng giúp tối ưu hóa chi phí và thời gian phát triển, đảm bảo khách hàng nhận được giải pháp hiệu quả với mức giá hợp lý. <br />
+                                    Khả năng mở rộng và phát triển: Dựa trên nền tảng phần mềm đóng gói, khách hàng có thể dễ dàng mở rộng và phát triển sản phẩm theo thời gian và nhu cầu kinh doanh. <br /> <br />
+                                    Việc sản xuất phần mềm đóng gói và theo đơn đặt hàng mang lại sự linh hoạt và khả năng tùy biến cao, đáp ứng mọi yêu cầu và thách thức của khách hàng trong lĩnh vực công nghệ thông tin.
+                                </p>
+                            </div>
+                            
+                           
+                            <hr class="my-6 text-200" />
+                            <div class="text-center">
+                                <h2 class="mb-5">Theo dõi </h2>
+                                <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item mx-2"><a href="#!"><img src="/assets/img/icons/facebook.png" alt="..." /></a></li>
+                                    <li class="list-inline-item mx-2"><a href="#!"><img src="/assets/img/icons/twitter.png" alt="..." /></a></li>
+                                    <li class="list-inline-item mx-2"><a href="#!"><img src="/assets/img/icons/youtube.png" alt="..." /></a></li>
+                                    <li class="list-inline-item mx-2"><a href="#!"><img src="/assets/img/icons/linkdin.png" alt="..." /></a></li>
+                                    <li class="list-inline-item mx-2"><a href="#!"><img src="/assets/img/icons/google-plus.png" alt="..." /></a></li>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 " style=" width: 70%;">
+                                <div class="card bg-backdrop" style=" background: #2a2525;">
+                                    <div class="container" style="padding-right:0;">
+                                        <div class="row">
+                                            <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+
+                                                <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                                    <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center">
+                                                            <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .bg-backdrop::before {
+                                        background: none;
+                                    }
+                                    
+                                    .bg-backdrop {
+                                        background: rgb(39 37 37 / 40%);
+                                    }
+                                </style>
+                            </div>
+                            <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                        </div>
+                        <div class="row justify-content-center my-3">
+                            <div class="col-12 col-lg-10">
+                                <div class="card bg-soft-pink">
+                                    <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                        <div class="row">
+                                            <div class="col-lg-6 text-center text-lg-start">
+                                                <p class="fs--1 my-2 fw-bold text-gradient-pink-soft">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/portfolio.png);"></div>
+                    <!--/.bg-holder-->
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4" style="font-size: calc(1.4407rem + 2.2884vw) !important;">Điểm <br /> nổi bật</h1><img class="d-none d-lg-block line-icons mt-5" src="/assets/img/lineicons/trophy.png" alt="icon" />
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center; letter-spacing: normal; padding-right: 0 !important; padding-left: 0 !important;" href="#contact"> 
+                            <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                            <span class="text-capitalize" style="text-align: justify;">Phạm vi <br/> triển khai</span></a>
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center; letter-spacing: normal; padding-right: 0 !important; padding-left: 0 !important;" href="#faq">
+                            <span class="text-capitalize" style="text-align: justify;">Hình thức <br/> hoạt động</span>
+                            <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="page p-0 d-none" id="contact">
+    <div class="container-fluid">
+        <div class="top-0 w-100">
+            <div class="row">
+                <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-6 pt-lg-0">
+                    <section class="pb-0">
+                        <div class="bg-holder bg-size" style="background-image:url(/assets/img/contact-bg.png);background-position:left center;background-size:auto;"></div>
+                        <!--/.bg-holder-->
+                        <div class="container-fluid">
+                            <div class="col-lg-10" style="margin: 0 auto !important">
+
+                                <div class="text-center mb-5 mb-lg-6">
+                                    <h2><span class="fw-medium fs-xl-3 fs-xxl-4" style="color: #fc8a0e; font-size:70px!important; font-weight:bold !important">Phạm vi triển khai</span></h2>
+                                </div>
+                                <div class="text-justify" style="margin-bottom: 50px; font-size: 18px; text-align:justify;">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                    <p>
+
+                                        Phần mềm quản lý kỳ thi được triển khai cho đa dạng đối tượng, từ các Sở Giáo Dục đến các trường học ở cấp độ cơ sở. Điều này đảm bảo rằng các tổ chức
+                                        và cá nhân trong lĩnh vực giáo dục đều có thể tận dụng và áp dụng công nghệ để tổ chức và quản lý các kỳ thi một cách hiệu quả.
+                                    </p>
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                                <!-- ============================================-->
+                                
+                                <!-- ============================================-->
+                                <div class="swiper-container theme-slider gallerySwiper" data-swiper='{"autoplay":{"delay":3000},"loop":true,"slideToClickedSlide":true,"effect":"fade","pagination":{"type":"bullets","clickable":true}}'>
+                                    <div class="swiper-wrapper h-100">
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 800px; width: 1000px; padding-top: 30px; padding-bottom: 30px;"  src="~/assets/img/gallery/sgd.jpg" alt="" />
+                                                <div class="card-body h-100 px-2">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Sở Giáo Dục Và Đào Tạo</h6>
+                                                    <p class="mb-3" style="text-align: justify;">
+                                                        Phần mềm quản lý đề thi linh động đáp ứng tất cả các dạng đề của Bộ Giáo Dục
+                                                        giúp giáo viên và nhà quản lý dễ dàng tạo ra và sử dụng đề thi theo các chuẩn mực của Bộ. Tính linh hoạt này không chỉ giúp
+                                                        tiết kiệm thời gian mà còn giúp đảm bảo rằng các bài kiểm tra phản ánh chính xác nội dung giáo dục. Đồng thời, nó cũng tạo điều kiện cho
+                                                        việc cá nhân hóa và tùy chỉnh theo nhu cầu cụ thể của từng lớp học và môn học, từ đó tăng cường hiệu quả giảng dạy và học tập.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 750px; width: 1000px; padding-top: 30px; padding-bottom: 30px;"  src="~/assets/img/gallery/phamvi.png" alt="" />
+                                                <div class="card-body h-100 px-2" style="margin-top: 40px;">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Phòng Giáo Dục Và Đạo Tạo</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm có tính năng sao lưu và phục hồi dữ liệu giúp bảo vệ thông tin quan trọng của bạn một cách an toàn và bảo mật. Với cơ chế này, dữ liệu được tự động sao lưu định kỳ để đảm bảo không bị mất mát trong trường hợp xảy ra sự cố. Khi cần thiết, tính năng phục hồi cho phép bạn khôi phục dữ liệu một cách dễ dàng và nhanh chóng, giúp duy trì sự liên tục trong hoạt động mà không lo lắng về việc mất dữ liệu quan trọng.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 750px; width: 1000px; padding-top: 30px; padding-bottom: 30px;"  src="~/assets/img/gallery/pv1.jpg" alt="" />
+                                                <div class="card-body h-100 px-2" style="margin-top: 50px;">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Khối Phổ Thông</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 800px; width: 1000px; padding-top: 30px; padding-bottom: 30px;" src="~/assets/img/gallery/pv2.jpg" alt="" />
+                                                <div class="card-body h-100 px-2">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Trung Tâm Đào Tạo</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 800px; width: 1000px; padding-top: 30px; padding-bottom: 30px;" src="~/assets/img/gallery/pv3.jpg" alt="" />
+                                                <div class="card-body h-100 px-2" style="margin-bottom:50px">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Khối Giáo Dục Đại Học</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide h-100">
+                                            <div class="card h-100">
+                                                <img class="img-fluid" style="height: 800px; width: 1000px; padding-top: 30px; padding-bottom: 30px;" src="~/assets/img/gallery/pv4.jpg" alt="" />
+                                                <div class="card-body h-100 px-2" style="margin-bottom:50px">
+                                                    <h6 class="fw-medium fs-md-1 fs-sm-1 text-center" style="font-size:50px !important; font-weight:bold !important; color:#287235;">Cá nhân</h6>
+                                                    <p class="mb-3" style="text-align: justify;">Phần mềm hỗ trợ việc xây dựng một ngân hàng đề thi tập trung một cách tiện lợi cho các Sở GD&ĐT. Tính năng này cho phép tổ chức lưu trữ đề thi đa dạng từ nhiều năm trước và sử dụng chúng lâu dài, giúp tối ưu hóa quá trình thi cử. Nhờ vào kho ngân hàng đề thi này, việc chuẩn bị và tổ chức các kỳ thi trở nên nhanh chóng và hiệu quả hơn, đồng thời giúp giám bớt áp lực công việc cho cán bộ giáo viên trong mỗi kỳ thi cử.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"> </div>
+                                </div>
+                                @*<div class="row flex-center">
+                                    <div class="col-11 col-xl-6">
+                                        <div class="text-center mb-5 mb-lg-6">
+
+                                            <div class="accordion mt-8" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">SỞ GIÁO DỤC VÀ ĐÀO TẠO</span></button></h2>
+                                                    </div>
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">PHÒNG GIÁO DỤC VÀ ĐÀO TẠO</span></button></h2>
+                                                    </div>
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">KHỐI PHỔ THÔNG </span></button></h2>
+                                                    </div>
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">TRUNG TÂM ĐÀO TẠO</span></button></h2>
+                                                    </div>
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">KHỐI GIÁO DỤC ĐẠI HỌC</span></button></h2>
+                                                    </div>
+                                                    <div class="my-3 border-start border-3">
+                                                        <h2 class="accordion-header" id="heading1"><button class="accordion-button px-4 py-0 text-1000" type="button"><span class="mb-0 fw-bold text-start fs-1 px-2">CÁ NHÂN</span></button></h2>
+                                                    </div>
+                                                    <style>
+                                                        .accordion-button:not(.collapsed)::after {
+                                                            background-image: none !important;
+                                                        }
+                                                    </style>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>*@
+                            </div>
+                            <div class="col-12">
+                                <div class="row justify-content-center pt-3d">
+                                    <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8" style=" width: 70%;">
+                                        <div class="card bg-backdrop" style=" background: #2a2525;">
+                                            <div class="container" style="padding-right:0;">
+                                                <div class="row">
+                                                    <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+
+                                                        <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                                    </div>
+
+                                                    <div class="col-md-9">
+                                                        <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                                            <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                                <div class="d-flex align-items-center mb-2">
+                                                                    <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                                    <div class="flex-1 ms-3">
+                                                                        <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex align-items-center mb-2">
+                                                                    <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                                    <div class="flex-1 ms-3">
+                                                                        <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex align-items-center mb-2">
+                                                                    <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                                    <div class="flex-1 ms-3">
+                                                                        <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                                    <div class="flex-1 ms-3">
+                                                                        <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex justify-content-center">
+                                                                    <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <style>
+                                            .bg-backdrop::before {
+                                                background: none;
+                                            }
+
+                                            .bg-backdrop {
+                                                background: rgb(39 37 37 / 40%);
+                                            }
+                                        </style>
+                                    </div>
+                                    <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                                </div>
+                                <div class="row justify-content-center my-3">
+                                    <div class="col-12 col-lg-10">
+                                        <div class="card bg-soft-orange-1">
+                                            <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                                <div class="row">
+                                                    <div class="col-lg-6 text-center text-lg-start">
+                                                        <p class="fs--1 my-2 fw-bold text-gradient-orange-soft-1">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-12 position-absolute position-lg-relative ps-lg-0">
+                    <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                        <div class="btn-close-boots-container times">
+                            <div class="btn-close-boots"></div>
+                        </div>
+                        <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/contact.png);"></div>
+                        <!--/.bg-holder-->
+                        <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                            <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4" style="font-size: calc(1.4407rem + 2.2884vw) !important;">Phạm vi triển khai</h1><img class="d-none d-lg-block line-icons mt-4" src="/assets/img/lineicons/map.png" alt="icon" />
+                            <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                            <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#services"> 
+                                <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                                <span class="text-capitalize" style="text-align: justify;">Chức <br/> năng</span></a>
+                            <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#portfolio">
+                                <span class="text-capitalize" style="text-align: justify;">Điểm nổi <br/> bật</span>
+                                <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="p-0 page d-none" id="faq">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-lg-7 pt-xxl-8 pb-0">
+                <div class="row flex-center">
+                    <div class="col-11 col-xl-9">
+                        <div class="text-center mb-5 mb-lg-6">
+                            <h2><span class="fw-medium fs-xl-3 fs-xxl-4" style="color: #3c5a99; font-size:70px !important; font-weight:bold !important">Hình thức hoạt động</span></h2>
+                            <div class="accordion mt-8" id="accordionExample">
+                                <div class="accordion-item">
+                                    <div class="my-3 border-start border-3">
+                                        <h2 class="accordion-header" id="heading1">
+                                            <button style="background:#3c5a99; padding:10px !important; width: 300px; color:#fff !important; font-size:30px" class="accordion-button px-4 py-0 text-1000" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                <span class="mb-0 fw-bold text-start fs-1 px-2">Chế độ Online</span>
+                                            </button>
+                                        </h2>
+                                        <div class="accordion-collapse collapse show" id="collapse1" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pt-3 px-4 text-justify">Hoạt động khi kết nối tới máy chủ của đơn vị chủ quản: Khi máy tính kết nối internet giáo viên có thể tải dữ liệu của Sở/Phòng giáo dục về máy cá nhân để sử dụng hoặc có thể đưa ngân hàng câu hỏi của mình lên máy chủ của đơn vị chủ quản.</div>
+                                        </div>
+                                    </div>
+                                    <img style="width:100%" src="~/assets/img/online.png" alt="Mô tả ảnh">
+                                </div>
+                                <div class="accordion-item">
+                                    <div class="my-3 border-start border-3">
+                                        <h2 class="accordion-header" id="heading2"><button style="background:#3c5a99; padding:10px !important; width: 300px; color:#fff !important; font-size:30px" class="accordion-button px-4 py-0 text-1000" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="mb-0 fw-bold text-start fs-1 px-2">Chế độ Offline</span></button></h2>
+                                        <div class="accordion-collapse collapse show" id="collapse2" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body pt-3 px-4 text-justify">Không kết nối tới máy chủ của đơn vị chủ quản: Không cần kết nối internet. Giáo viên có thể xây dựng ngân hàng câu hỏi độc lập của riêng mình khi không có kết nối internet và đồng bộ ngân hàng câu hỏi cá nhân lên máy chủ của đơn vị chủ quản khi kết nối internet.</div>
+                                        </div>
+                                    </div>
+                                    <img style="width:100%" src="~/assets/img/offline.jpg" alt="Mô tả ảnh">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-content-center pt-3d">
+                            <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8" style=" width: 70%;">
+                                <div class="card bg-backdrop" style=" background: #2a2525;">
+                                    <div class="container" style="padding-right:0;">
+                                        <div class="row">
+                                            <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+
+                                                <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                                    <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center">
+                                                            <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .bg-backdrop::before {
+                                        background: none;
+                                    }
+
+                                    .bg-backdrop {
+                                        background: rgb(39 37 37 / 40%);
+                                    }
+                                </style>
+                            </div>
+                            <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                        </div>
+                        <div class="row justify-content-center my-3">
+                            <div class="col-12 col-lg-10">
+                                <div class="card bg-soft-indigo">
+                                    <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                        <div class="row">
+                                            <div class="col-lg-6 text-center text-lg-start">
+                                                <p class="fs--1 my-2 fw-bold text-gradient-indigo-soft">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/faq.png);"></div>
+                    <!--/.bg-holder-->
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4"  style="font-size: calc(1.4407rem + 2.2884vw) !important;">Hình thức hoạt động</h1><img class="d-none d-lg-block line-icons mt-5" src="/assets/img/lineicons/bubble.png" alt="icon" />
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center; letter-spacing: normal;" href="#portfolio">
+                            <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                            <span class="text-capitalize" style="text-align: justify;">Điểm nổi <br/> bật</span></a>
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center; letter-spacing: normal;" href="#gallery">
+                            <span class="text-capitalize" style="text-align: justify;">Thư viện <br /> ảnh</span>
+                            <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="p-0 page d-none" id="gallery">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-8 col-xl-9 order-1 order-lg-0 pt-10 pt-xl-7 pt-xxl-8 pb-0">
+                <div class="row min-vh-25 flex-center">
+                    <div class="col-lg-10 col-xl-7">
+            <div class="text-center mb-5 mb-lg-6">
+                <h2><span class="fw-medium fs-xl-3 fs-xxl-4" style="color: #14bfb4; font-size: 70px !important; font-weight: bold !important">Thư viện ảnh</span></h2>
+            </div>
+            <div class="mb-5 sortable" data-filter-nav="data-filter-nav">
+                <ul class="nav menu justify-content-center mb-2" data-filter-nav="data-filter-nav">
+                    <li class="nav-item ls">
+                        <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none active" data-filter="*"> <i class="fas fa-th fs-0 me-2"></i>Tất cả</div>
+                    </li>
+                    <li class="nav-item ls">
+                        <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".studio"> <i class="fas fa-globe fs-0 me-2 fs-0"></i>Sản phẩm</div>
+                    </li>
+                    <li class="nav-item ls">
+                        <div class="isotope-nav px-3 px-lg-2 px-xl-3 text-decoration-none" data-filter=".interior"> <i class="fas Example of graduation-cap fa-graduation-cap fs-0 me-2 fs-0"></i>Công ty</div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="row g-2 mt-2" id="portfolio-gallery" data-isotope='{"layoutMode":"packery"}'>
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="/assets/img/projects/img1.png" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen1"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img2.jpg" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen3"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img3.jpg" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen4"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img4.jpg" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen5"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img5.jpg" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen6"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 masonry-item interior">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img6.jpg" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen2"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item studio">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img7.png" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen7"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item studio">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img8.png" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen8"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item studio">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img9.png" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen9"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 masonry-item studio">
+                    <div class="card hoverbox overflow-hidden">
+                        <img class="img-fluid" src="~/assets/img/projects/img10.png" alt="" />
+                        <div class="card-img-overlay">
+                            <div class="px-4 hoverbox-content d-flex flex-column flex-center"><a class="stretched-link" href="#" data-bs-toggle="modal" data-bs-target="#modalFullscreen10"><i class="fas fa-eye fs-2 text-light"> </i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    
+                    <div class="col-12">
+                        <div class="row justify-content-center pt-3d">
+                            <div class="col-lg-8 col-xl-7 mb-n5 mb-md-n8 mb-lg-n6 mb-xl-n9 mt-8" style=" width: 70%;">
+                                <div class="card bg-backdrop" style=" background: #2a2525;">
+                                    <div class="container" style="padding-right:0;">
+                                        <div class="row">
+                                            <div class="col-md-3 my-5" style="margin-top: 7rem !important; margin-bottom: 7rem !important;">
+
+                                                <img src="~/assets/img/logohv.png" alt="Logo" class="logo h-100" style="width: 100%;">
+                                            </div>
+
+                                            <div class="col-md-9">
+                                                <div class="card bg-backdrop" style="padding-left: 8px; padding-right: 8px; height: 100%;">
+                                                    <div class="py-3 text-align" style="padding-top: 3rem !important; padding-bottom: 3rem !important;">
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fa fa-building fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1" style="font-size:20px;"><a href="Công ty TNHH Phát triển Hương Việt">Công ty TNHH Phát triển Hương Việt</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-1" style="padding: 9px;"><i class="fas fa-phone fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-1"><a href="tel:(024)6.269.2438">(024)6.269.2438</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center mb-2">
+                                                            <div class="icon icon-warning shadow-2" style="padding: 9px;"><i class="fas fa-envelope fs-0"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold mb-0 text-gradient-orange-2"> <a href="hn.cskh@huongvietgroup.com ">hn.cskh@huongvietgroup.com </a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="icon icon-warning fs-1 shadow-3" style="padding: 9px;"><i class="fas fa-map-marker-alt"></i></div>
+                                                            <div class="flex-1 ms-3">
+                                                                <p class="fw-bold text-gradient-orange-3 mb-0">Tầng 13 Khối A, Tòa nhà Sông Đà, Phạm Hùng, Q.Nam Từ Liêm, Hà Nội</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex justify-content-center">
+                                                            <a class="btn hover-top btn-boots-warning" href="#!" style="margin-top: 20px;">Liên hệ</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .bg-backdrop::before {
+                                        background: none;
+                                    }
+
+                                    .bg-backdrop {
+                                        background: rgb(39 37 37 / 40%);
+                                    }
+                                </style>
+                            </div>
+                            <div class="col-lg-10"><img class="w-100" src="/assets/img/cta/cta-about.png" alt="..." style="border-radius:1rem;" /></div>
+                        </div>
+                        <div class="row justify-content-center my-3">
+                            <div class="col-12 col-lg-10">
+                                <div class="card bg-soft-cyan-2">
+                                    <div class="card-body py-3" style="padding-top: 1rem !important; padding-bottom: 1rem !important;">
+                                        <div class="row">
+                                            <div class="col-lg-6 text-center text-lg-start">
+                                                <p class="fs--1 my-2 fw-bold text-gradient-cyan-soft-2">All rights Reserved &copy; Hương Việt Group, 2024</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-3 position-absolute position-lg-relative ps-lg-0">
+                <div class="sticky-top py-4 sticky-area" data-sidebar-close="sidebar-close">
+                    <div class="btn-close-boots-container times">
+                        <div class="btn-close-boots"></div>
+                    </div>
+                    <div class="bg-holder sidebar-rounded" style="background-image:url(/assets/img/sidebars/gallery.png);"></div>
+                    <!--/.bg-holder-->
+                    <div class="position-relative d-lg-flex flex-column justify-content-end align-items-end h-100 px-lg-4 px-xxl-5">
+                        <h1 class="text-white text-vertical px-5 px-lg-0 opacity-50 fs-xl-3 fs-xxl-4" style="font-size: calc(1.4407rem + 2.2884vw) !important;">Thư <br/> viện ảnh</h1><img class="d-none d-lg-block line-icons mt-5" src="/assets/img/lineicons/camera.png" alt="icon" />
+                        <hr class="my-4 w-100 d-none d-lg-block opacity-25" />
+                        <div class="flex-between-center d-none d-lg-flex w-100 opacity-75" data-sidebar-link="page-link">
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#faq"> 
+                            <i class="fas fa-chevron-left me-lg-2 me-xl-2 me-xxl-4"></i>
+                            <span class="text-capitalize" style="text-align: justify;">Hình thức <br /> hoạt động</span></a>
+                        <a class="sidebar-nav btn btn-link text-decoration-none px-1" style="display: flex; align-items: center; justify-content: center;" href="#about">
+                            <span class="text-capitalize" style="text-align: justify;">Lợi <br/> ích</span>
+                            <i class="fas fa-chevron-right ms-lg-2 ms-xl-2 ms-xxl-4"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
